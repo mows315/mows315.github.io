@@ -1,0 +1,56 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, sub, var,
+dl, dd, dt, ul, ol, li,
+fieldset, form, table, caption, tbody,
+tfoot, thead, tr, th, td, header, section,
+footer, article, details {
+padding: 0; margin: 0; border: 0; outline: 0;
+font-family: inherit; font-style: inherit; font-size:
+100%; font-weight: inherit; vertical-align: baseline;
+}
+.button {
+  background-color: #BC002D;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  /* margin-top: 40px;
+   margin-bottom: 100px;
+   margin-right: 150px;
+   margin-left: 700px; */
+   position: relative;
+}
+.button1 {
+  border-radius: 60px;
+  text-align: center;
+  margin: center;
+  position: absolute;
+  }
+
+.title {
+font-size: 140px;
+font-family: Helvetica;
+ margin-left: 50px;
+}
+.title2 {
+font-size: 18px;
+font-family: Helvetica;
+margin-left: 50px;
+}
+#bottomright{
+position: fixed;
+bottom: 15px;
+right: 15px;
+font-size: 50px;
+font-family: Helvetica;
+line-height: 20pt;
+z-index: 5;
+color: #000000
+}

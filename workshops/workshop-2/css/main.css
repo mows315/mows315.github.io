@@ -64,9 +64,8 @@ position: sticky;
 word-wrap: inherit;
 
 }
-@media screen and (min-width: 70em) {
-    main {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        column-gap: 20px;
-    }
+@media screen and (max-width: 768px) {
+    font-size: 12px;
+      word-wrap: break-word;
+
+  }

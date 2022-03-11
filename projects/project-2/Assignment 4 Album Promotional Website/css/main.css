@@ -1,0 +1,130 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, sub, var,
+dl, dd, dt, ul, ol, li,
+fieldset, form, table, caption, tbody,
+tfoot, thead, tr, th, td, header, section,
+footer, article, details {
+padding: 0; margin: 0; border: 0; outline: 0;
+font-family: inherit; font-style: inherit; font-size:
+100%; font-weight: inherit; vertical-align: baseline;
+}
+
+.album {
+font-family:Arial, Helvetica, sans-serif;
+font-size: 100px;
+margin: 40px;
+text-align: center;
+color: yellow;
+position: absolute;
+}
+.bio1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 40px;
+    text-align: left;
+    color: yellow;
+    width: 350px;
+    display: inline-block;
+    }
+    .bio2 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin: 40px;
+        text-align: left;
+        color: yellow;
+        width: 350px;
+        display: inline-block;
+        }
+        .bio3 {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            margin: 40px;
+            text-align: left;
+            color: yellow;
+            width: 350px;
+            display: inline-block;
+            }
+.date {
+font-family:Arial, Helvetica, sans-serif;
+font-size: 50px;
+position: relative;
+color: yellow;
+display: inline-block;
+margin: 40px;
+            }
+            h1 {
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 50px;
+                position: relative;
+                color: yellow;
+                display: inline-block;
+                margin: 40px;
+                            }
+.video {
+display: inline-block;
+margin: 40px;
+}
+.videotext {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: yellow;
+font-style: italic;
+text-align: right;
+margin: 40px;
+}
+.date2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    position: relative;
+    color: yellow;
+    margin: 40px;
+    text-align: right;
+                }
+                .producers {
+                    font-family:Arial, Helvetica, sans-serif;
+                    font-size: 12px;
+                    text-align: left;
+                    color: yellow;
+                    width: 350px;
+                    margin: 40px;
+                    display: inline-block;
+                    }
+                    .label {
+                        font-family:Arial, Helvetica, sans-serif;
+                        font-size: 12px;
+                        text-align: left;
+                        color: yellow;
+                        width: 350px;
+                        margin: 40px;
+                        display: inline-block;
+                        }
+                        .store {
+                            font-family:Arial, Helvetica, sans-serif;
+                            font-size: 40px;
+                            text-align: center;
+                            color: yellow;
+                            width: 350px;
+                            margin: 40px;
+                            text-decoration: none;
+                           
+                            }
+                  
+                        .spotify {
+                
+                            margin: 40px;
+                            text-align: center;
+                            position: relative;
+                        
+                            }
+                            @media screen and (max-width: 768px) {
+
+                                body {
+                                  font-size: 10px;
+                                    word-wrap: break-word;
+                                    width: 100%;
+                                    display: flex;
+                                  
+                                }

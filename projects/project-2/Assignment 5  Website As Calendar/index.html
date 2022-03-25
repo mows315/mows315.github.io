@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website As Calendar</title>
+</head>
+<link rel="stylesheet" href="css/main.css" type="text/css"/>
+<script type="text/javascript"> 
+var fonts = ['Arial', 'Helvetica', 'Arial Black', 'Baskerville', 'Beirut', 'BM Dohyeon', 'Menlo', 'Mishafi'];
+var currentFont = 0
+
+function changeFont() {
+  document.body.style.fontFamily = fonts[currentFont++ % fonts.length]
+}
+
+setInterval(changeFont, 1500);
+</script>
+<body>
+  <div class="fontss"><p id="text">I will keep on evolving</p></div>  
+</body>

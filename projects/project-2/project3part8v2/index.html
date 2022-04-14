@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>project 3 part 7v3</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css"/>
+  <script src="./index.js" type="text/javascript" defer></script>
+  <style>
+      .hidden{
+  display: none;
+
+}
+.picture{
+    margin-left: 300px;
+  padding: 20px;
+}
+      .p {
+        text-decoration: dotted;
+font-size: 120px;
+margin-top: 35px;
+  margin-left: 35px;
+    font-family: Arial, Helvetica, sans-serif
+      }
+
+. button button1 {
+  
+}
+.button {
+  background-color: blue;
+  border: none;
+  color: black;
+  padding: 80px;
+  text-align: center;
+  text-decoration:dotted;
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+  align-items: center;
+}
+.button1 {border-radius: 40px;}
+.button2 {border-radius: 40px;}
+.button3 {border-radius: 40px;}
+.button4 {border-radius: 40px;}
+</style>
+<script>
+function toggleImage(){
+  document.querySelector('#image').classList.toggle('hidden');
+}
+function toggleImage2(){
+  document.querySelector('#image2').classList.toggle('hidden');
+}
+function toggleImage3(){
+  document.querySelector('#image3').classList.toggle('hidden');
+}
+function toggleImage4(){
+  document.querySelector('#image4').classList.toggle('hidden');
+}
+</script>
+<main id="app">
+  <div id="information">
+  <div class="p">Elastic Collections Posters</div>
+    <button class="button button1" onclick = "toggleImage()"> Location</button>
+    <img src="images/main1.png" id="image" class="hidden picture"/>
+  <br>
+  <button class="button button2" onclick = "toggleImage2()"> Color</button>
+  <img src="images/main2.png" id="image2" class="hidden picture"/>
+  <br>
+  <button class="button button3" onclick = "toggleImage3()"> Artistic Style</button>
+  <img src="images/main3.png" id="image3" class="hidden picture"/>
+  <br>
+  <button class="button button4" onclick = "toggleImage4()"> Typography Style</button>
+  <img src="images/main4.png" id="image4" class="hidden picture"/>

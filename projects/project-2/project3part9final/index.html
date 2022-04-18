@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>project 3 part 7v3</title>
+  <title>P3: FINAL</title>
   <link rel="stylesheet" href="css/main.css" type="text/css"/>
   <script src="./index.js" type="text/javascript" defer></script>
   <style>
@@ -57,29 +57,20 @@ function toggleImage3(){
 }
 function toggleImage4(){
   document.querySelector('#image4').classList.toggle('hidden');
+  document.querySelector('#future-images').classList.toggle('hidden');
 }
 function toggleImage5(){
   document.querySelector('#image5').classList.toggle('hidden');
-  document.querySelector('#future-images').classList.toggle('hidden');
+
 }
 </script>
 <main id="app">
   <div id="information">
-  <div class="p">Elastic Collections Posters</div>
-    <button class="button button1" onclick = "toggleImage()"> Location</button>
-  <br>
+  <div class="p">Posters Revolving Natural Surrondings</div>
 
-  <button class="button button2" onclick = "toggleImage2()"> Color</button>
-  <div id="image2"></div><div id="colors-images"></div></div>
-  <br>
-
-  <button class="button button3" onclick = "toggleImage3()"> Artistic Style</button>
+  <button class="button button3" onclick = "toggleImage3()"> Yellow</button>
   <div id="image3"></div><div id="artistic-images"></div></div>
   <br>
-
-  <button class="button button4" onclick = "toggleImage4()"> Typography Style</button>
-  <br>
-
-  <button class="button button5" onclick = "toggleImage5()"> Future</button>
-  <div id="image5"></div><div id="future-images"></div></div>
+  <button class="button button4" onclick = "toggleImage4()"> Other</button>
+  <div id="image4"></div><div id="future-images"></div></div>
   <br>

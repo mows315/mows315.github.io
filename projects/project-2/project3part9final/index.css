@@ -1,0 +1,11 @@
+#information {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+      font-size: 10px;
+        word-wrap: break-word;
+        width: 100%;
+    }

@@ -3,7 +3,7 @@
 const airtableApiKey = "key0zgkz38dpB9LQp";
 
 // URL of Where our Data is Located
-const tableUrl = "https://api.airtable.com/v0/apphYBbLI307cYmgm/Table%201?";
+const tableUrl = "https://api.airtable.com/v0/apphYBbLI307cYmgm/Table%201";
 
 // URL with API Key Authentication
 const authenticatedUrl = tableUrl + "?api_key=" + airtableApiKey;
@@ -23,6 +23,7 @@ fetch(authenticatedUrl)
   // Use the JSON Data
   .then((data) => {
     const words = data.records;
+    console.log(words)
     const fortitudes = words.filter((word) => {
         return word.fields.Type === 'fortitude'
     })
@@ -38,6 +39,7 @@ fetch(authenticatedUrl)
     })
     // Set Values onto HTML Elements 
     fortitudeElement.innerHTML = fortitudes[Math.floor(Math.random()*fortitudes.length)].fields.Copy
+    console.log(types)
     typeElement.innerHTML = types[Math.floor(Math.random()*types.length)].fields.Copy
     gardenElement.innerHTML = gardens[Math.floor(Math.random()*gardens.length)].fields.Copy
     spyElement.innerHTML = spys[Math.floor(Math.random()*spys.length)].fields.Copy

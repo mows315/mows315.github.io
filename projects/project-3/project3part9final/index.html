@@ -2,75 +2,47 @@
 <html>
 <head>
   <title>P3: FINAL</title>
-  <link rel="stylesheet" href="css/main.css" type="text/css"/>
+  <link rel="stylesheet" href="index.css" type="text/css"/>
   <script src="./index.js" type="text/javascript" defer></script>
   <style>
       .hidden{
   display: none;
 
 }
-.picture{
-    margin-left: 300px;
-  padding: 20px;
-}
-      .p {
-font-size: 120px;
-margin-top: 35px;
-  margin-left: 35px;
-    font-family: Arial, Helvetica, sans-serif
-      }
-
-. button button1 {
-  
-}
 .button {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: blue;
   border: none;
-  color: white;
-  padding: 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 40px;
+  font-size: 20px;
   margin-top: 40px;
   margin-left: 40px;
+  margin-bottom: 40px;
+  margin-bottom: 40px;
   cursor: pointer;
   align-items: center;
 }
-.button1 {border-radius: 40px;}
-.button2 {border-radius: 40px;}
-.button3 {border-radius: 40px;}
-.button4 {border-radius: 40px;}
-.button5 {border-radius: 40px;}
 </style>
 <script>
-function toggleImage(){
-  document.querySelector('#image').classList.toggle('hidden');
-}
-function toggleImage2(){
-  document.querySelector('#image2').classList.toggle('hidden');
-  document.querySelector('#colors-images').classList.toggle('hidden');
-}
 function toggleImage3(){
   document.querySelector('#image3').classList.toggle('hidden');
   document.querySelector('#artistic-images').classList.toggle('hidden');
 }
-function toggleImage4(){
-  document.querySelector('#image4').classList.toggle('hidden');
-  document.querySelector('#future-images').classList.toggle('hidden');
-}
-function toggleImage5(){
-  document.querySelector('#image5').classList.toggle('hidden');
-
-}
 </script>
+<body>
+<h1 class="title">
+  <span class="title-content">Posters</span>
+  <span class="title-content title-second">Revolving</span>
+  <span class="title-content title-third">Natural</span>
+  <span class="title-content title-fourth">Surrondings</span>
+</h1>
 <main id="app">
   <div id="information">
-  <div class="p">Posters Revolving Natural Surrondings</div>
-
+<a href="#" class="button">All</a> </button>
   <button class="button button3" onclick = "toggleImage3()"> Yellow</button>
   <div id="image3"></div><div id="artistic-images"></div></div>
-  <br>
-  <button class="button button4" onclick = "toggleImage4()"> Other</button>
-  <div id="image4"></div><div id="future-images"></div></div>
-  <br>
+</body>
+</head>
+</html>

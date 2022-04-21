@@ -1,5 +1,60 @@
 #information {
-    font-size: 40px;
+text-align: center;
+  align-items: center;
+}
+
+.title{
+color: black;
+text-decoration: uppercase;
+line-height: 40px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.title-content{
+  display: block;
+  opacity: 0;
+  animation: revealText .5s forwards;
+}
+.title-second{
+animation-delay: .175s;
+}
+.title-third{
+  animation-delay: .25s;
+  }
+  .title-fourth{
+    animation-delay: .325s;
+    }
+@keyframes revealText {
+from{
+  transform: translateY(20px);
+}
+to{
+  opacity:1;
+  transform: none;
+}
+
+}
+
+.button {
+display: inline-block;
+color: #fff;
+text-decoration: none;
+padding: 20px 50px;
+border: 3px solid blue;
+border-radius: 10px;
+}
+
+.button:hover{
+  animation: pulsate 1s
+  ease-in-out;
+}
+
+@keyframes pulsate {
+  0%{
+    box-shadow: 
+    0 0 25px #5ddcff, 
+    0 0 50px #4e00c2;
+  }
 }
 
 @media screen and (max-width: 768px) {

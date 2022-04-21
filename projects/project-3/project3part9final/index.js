@@ -6,8 +6,6 @@ const authenticatedUrl = tableUrl + "?api_key=" + airtableApiKey;
 // DOM References
 const bodyElement = document.querySelector("main#app");
 const artisticImagesContainerElement = document.querySelector("div#artistic-images")
-
-const futureImagesContainerElement = document.querySelector("div#future-images")
 // Application
 fetch(authenticatedUrl)
   .then((res) => res.json())
@@ -25,6 +23,7 @@ fetch(authenticatedUrl)
       const titleElement = document.createElement("p");
       titleElement.classList.add("title");
       titleElement.innerHTML = title;
+   
       if(illustration.fields.Type === "artistic") {
         artisticImagesContainerElement.appendChild(containerElement);
         containerElement.appendChild(imageElement);

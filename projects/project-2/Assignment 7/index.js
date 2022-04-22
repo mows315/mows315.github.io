@@ -16,7 +16,6 @@ const backgroundColors = ["#EADFC9", "#80825B"]
 const bodyElement = document.querySelector('body')
 const applicationElement = document.querySelector('#application')
 const adjectiveElement = document.querySelector('#adjective')
-const typeElement = document.querySelector('#type')
 const verbElement = document.querySelector('#verb')
 const adverbElement = document.querySelector('#adverb')
 
@@ -39,10 +38,7 @@ fetch(authenticatedUrl)
     const adjectives = words.filter((word) => {
         return word.fields.Type === 'adjective'
     })
-    // Filter for Word Types 
-    const types = words.filter((word) => {
-        return word.fields.Type === 'type'
-    })    
+  
     const verbs = words.filter((word) => {
         return word.fields.Type === 'verb'
     })
@@ -51,7 +47,6 @@ fetch(authenticatedUrl)
     })
     // Set Values onto HTML Elements 
     adjectiveElement.innerHTML = adjectives[Math.floor(Math.random()*adjectives.length)].fields.Copy
-    typeElement.innerHTML = types[Math.floor(Math.random()*types.length)].fields.Copy
     verbElement.innerHTML = verbs[Math.floor(Math.random()*verbs.length)].fields.Copy
     adverbElement.innerHTML = adverbs[Math.floor(Math.random()*adverbs.length)].fields.Copy
     applicationElement.classList.add('loaded')

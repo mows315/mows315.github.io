@@ -57,3 +57,16 @@ body {
 img {
     max-width: 100%;
 }
+
+@media screen and (min-width: 1200px) {
+    .logo {
+      font-family: Arial;
+      font-size:  30px;
+      border: 50px;
+      border: 10px solid blue;
+      border-radius: 110px;
+  border-spacing: inherit;
+   display: table-cell;
+      padding:50px;
+    }
+  }

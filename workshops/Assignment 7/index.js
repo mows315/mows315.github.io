@@ -9,8 +9,8 @@ const tableUrl = "https://api.airtable.com/v0/apphYBbLI307cYmgm/Table%202";
 const authenticatedUrl = tableUrl + "?api_key=" + airtableApiKey;
 
 // Colors 
-const foregroundColors = ["#604F4F", "#895141", "#353A4C"] // 
-const backgroundColors = ["#EADFC9", "#80825B"]
+const foregroundColors = ["#591521", "#0A090D", "#52591D"] // 
+const backgroundColors = ["#BF5E3B", "#A6382E"]
 
 // SECTION 2: DOM References 
 const bodyElement = document.querySelector('body')

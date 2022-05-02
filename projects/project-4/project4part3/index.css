@@ -1,0 +1,45 @@
+
+P {
+ position: static;
+font-family: Arial, Helvetica, sans-serif;
+padding: 50px;
+color: white;
+letter-spacing: .15em; 
+
+
+}
+body {
+    background: black;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .typewriter h1 {
+    font-size: 15px;
+    align-items: center;
+    color: #fff;
+    font-family: Arial;
+    overflow: hidden; 
+    border-right: .15em solid red; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: red }
+  }

@@ -1,0 +1,91 @@
+
+.container{
+}
+.container:hover{
+  color: #111; 
+  background: blue; 
+  text-align: center;
+  box-shadow: 0 0 100px blue; 
+  align-items: center;
+  
+}
+P {
+font-family: Arial, Helvetica, sans-serif;
+padding: 20px;
+color: white;
+letter-spacing: .15em; 
+
+
+
+}
+body {
+    background: black;
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: top;
+  }
+  
+ 
+  .typewriter h1 {
+    font-size: 15px;
+    align-items: center;
+    color: #fff;
+    font-family: Arial;
+    overflow: hidden; 
+    border-right: .15em solid red; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: red }
+  }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    &:before {
+      border-radius: 15px;
+      position: relative;
+      background: #ccc;
+      z-index: 1;
+
+      color: black;
+      content: attr(alt);
+      display: grid;
+      place-items: center;
+    }
+  }
+  
+  .load-image {
+    display: block;
+    background: #ccc;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      opacity: 1;
+    }
+  }
+  
+  

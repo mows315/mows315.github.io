@@ -166,3 +166,11 @@ body {
   .button:active {
     border-style: inset
   }
+
+@media screen and (max-width: 768px) {
+
+  body {
+    font-size: 10px;
+      word-wrap: break-word;
+      width: 100%;
+  }

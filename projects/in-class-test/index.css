@@ -1,0 +1,41 @@
+
+#position {
+        position:absolute;
+        top:0;
+        right:0;
+        }
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orange;}
+
+
+    h1 {
+color:beige;
+
+    }
+.question {
+color: white;
+font-weight: bold;
+font-size: large;
+}
+
+.answer {
+    color: blue;
+    font-style: italic;
+}
+
+#columns {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: violet;
+    padding: 10px;
+  }
+  
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: red;
+        font-size: 40px;
+      }
+    }
